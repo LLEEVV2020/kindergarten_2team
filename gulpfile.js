@@ -275,7 +275,7 @@ gulp.task('server', () => {
 /* PROJECT TASK BUILD QUEUE */
 
 gulp.task('build', gulp.series(
-    //'clean',
+    'clean',
     'html',
     'styles',
     'cssPlugins',
