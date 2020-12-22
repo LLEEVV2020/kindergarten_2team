@@ -1,7 +1,7 @@
-.aboutus__block {
+.about__block {
     width: 100%;
 }
-.aboutus__block-title {
+.about__block-title {
     text-align: center;
     margin: 0 1rem;
     margin-top: 4.3rem;
@@ -13,13 +13,13 @@
     text-align: center;
 }
 @media (min-width: 411px) {
-    .aboutus__block-title {
+    .about__block-title {
         font-size: 4.2rem;
         line-height: 3.8rem;
     }
 }
 @media (min-width: 768px) {
-    .aboutus__block-title {
+    .about__block-title {
         margin: 0 4rem;
         margin-top: 5.3rem;
         font-size: 5.2rem;
@@ -27,16 +27,16 @@
     }
 }
 @media (min-width: 1024px) {
-    .aboutus__block-title {
+    .about__block-title {
         margin: 0 14rem;
         margin-top: 5.7rem;
         font-size: 6.2rem;
         line-height: 7.8rem;
     }
 }
-@media (min-width: 1900px) {
-    .aboutus__block-title {
-        margin: 0 24rem;
+@media (min-width: 1200px) {
+    .about__block-title {
+        margin: 0 18rem;
         margin-top: 6.1rem;
         line-height: 8.5rem;
         font-size: 7.2rem;
