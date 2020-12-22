@@ -1,20 +1,39 @@
 .about__content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
     background-color: rgba(196, 196, 196, 0.35);
+    padding: 1rem;
 }
 @media (min-width: 411px) {
     .about__content {
+        width: 50rem;
+        height: auto;
+    }
+}
+@media (min-width: 522px) {
+    .about__content {
+        justify-content: space-between;
+        align-content: stretch;
+        padding: 0 1rem 0 0;
     }
 }
 @media (min-width: 768px) {
     .about__content {
+        width: 60rem;
+        height: 30.1rem;
     }
 }
 @media (min-width: 1024px) {
     .about__content {
+        width: 60rem;
+        height: 30.1rem;
     }
 }
 @media (min-width: 1200px) {
     .about__content {
-        max-width: 70rem;
+        width: 70rem;
+        height: 35.1rem;
     }
 }
