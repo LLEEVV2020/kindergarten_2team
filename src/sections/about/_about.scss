@@ -4,3 +4,16 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
+@media (min-width: 924px) {
+    .about {
+        padding: 0.5rem;
+        display: flex !important;
+        justify-content: space-between;
+    }
+}
+@media (min-width: 1024px) {
+    .about {
+        margin: 0 auto;
+        justify-content: space-evenly;
+    }
+}
