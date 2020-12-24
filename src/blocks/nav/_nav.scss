@@ -85,10 +85,11 @@
     }
     &__item {
         display: block;
-        padding: 1.2rem 2.4rem;
+        padding: 0.8rem 2.4rem;
         transition-duration: 0.25;
+        text-decoration: none;
         color: #000;
-        &:hover {
+        &:focus {
             background-color: rgba(230, 34, 84, 0.921875);
             border-radius: 12741.7em;
             text-align: center;
@@ -124,6 +125,12 @@
 
         &__item {
             display: block;
+            &:hover {
+                background-color: rgba(230, 34, 84, 0.921875);
+                border-radius: 12741.7em;
+                text-align: center;
+                color: #fff;
+            }
         }
 
         &__list-bottom {
