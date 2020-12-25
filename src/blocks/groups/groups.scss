@@ -1,0 +1,81 @@
+.group {
+    &__block-icon {
+        width: 100%;
+        height: auto;
+    }
+    &__block-icons {
+        margin: 0 auto;
+        width: 8.4rem;
+        height: 8.4rem;
+        margin-top: 2rem;
+    }
+    &__block-title {
+        text-align: center;
+    }
+    &__block-titles {
+        font-family: "Yanone Kaffeesatz";
+        font-size: 1.8rem;
+        line-height: 4.4rem;
+        letter-spacing: 0.01em;
+        display: block;
+    }
+    &__block-text {
+        font-family: "Alegreya Sans", sans-serif;
+        font-weight: 400;
+        font-size: 1.1rem;
+        line-height: 1.3rem;
+        display: block;
+    }
+}
+@media (min-width: 411px) {
+    .group {
+        &__block-icon {
+            display: flex !important;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            align-content: center;
+        }
+    }
+}
+@media (min-width: 768px) {
+    .group {
+        &__block-icons {
+            height: auto;
+        }
+        &__block-icons {
+            width: 16.9rem;
+        }
+        &__block-titles {
+            font-size: 3.8rem;
+            line-height: 4.4rem;
+            letter-spacing: 0.01em;
+        }
+        &__block-text {
+            font-size: 2.4rem;
+            line-height: 2.9rem;
+            letter-spacing: 0.015em;
+            text-indent: 1.5rem;
+        }
+    }
+}
+@media (min-width: 1200px) {
+    .group {
+        &__block-icon {
+            margin-bottom: 3rem;
+        }
+        &__block-icons {
+            width: 24.9rem;
+        }
+        &__block-titles {
+            font-size: 4.8rem;
+            line-height: 5.4rem;
+            letter-spacing: 0.01em;
+        }
+        &__block-text {
+            font-size: 3.4rem;
+            line-height: 2.9rem;
+            letter-spacing: 0.015em;
+            text-indent: 1.5rem;
+        }
+    }
+}
