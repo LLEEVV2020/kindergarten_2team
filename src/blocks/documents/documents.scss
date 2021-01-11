@@ -10,15 +10,10 @@
     &__block-group {
         margin: 1rem;
     }
-
-    &__block-icons {
-    }
-
     &__block-title {
         width: 100%;
         margin: 1rem 0;
     }
-
     &__block-texts {
         font-family: "Alegreya Sans", sans-serif;
         font-weight: 400;
@@ -26,8 +21,6 @@
         line-height: 2.3rem;
         display: block;
     }
-}
-@media (min-width: 411px) {
 }
 @media (min-width: 768px) {
     .cnt {
