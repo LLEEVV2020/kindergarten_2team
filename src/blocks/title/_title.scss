@@ -2,7 +2,7 @@
     width: 100%;
     display: block;
 }
-.about__block-title {
+.block-title {
     text-align: center;
     margin: 0 1rem;
     margin-top: 4.3rem;
@@ -14,13 +14,13 @@
     text-align: center;
 }
 @media (min-width: 411px) {
-    .about__block-title {
+    .block-title {
         font-size: 4.2rem;
         line-height: 3.8rem;
     }
 }
 @media (min-width: 768px) {
-    .about__block-title {
+    .block-title {
         margin: 0 4rem;
         margin-top: 5.3rem;
         font-size: 5.2rem;
@@ -28,7 +28,7 @@
     }
 }
 @media (min-width: 1024px) {
-    .about__block-title {
+    .block-title {
         margin: 0 14rem;
         margin-top: 5.7rem;
         font-size: 6.2rem;
@@ -36,7 +36,7 @@
     }
 }
 @media (min-width: 1200px) {
-    .about__block-title {
+    .block-title {
         margin: 0 18rem;
         margin-top: 6.1rem;
         line-height: 8.5rem;

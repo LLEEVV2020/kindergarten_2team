@@ -1,0 +1,72 @@
+.cnt {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-self: stretch;
+    margin-top: 3.9rem;
+    width: 100%;
+    &__block-group {
+        margin: 1rem;
+    }
+
+    &__block-icons {
+    }
+
+    &__block-title {
+        width: 100%;
+        margin: 1rem 0;
+    }
+
+    &__block-texts {
+        font-family: "Alegreya Sans", sans-serif;
+        font-weight: 400;
+        font-size: 1.1rem;
+        line-height: 2.3rem;
+        display: block;
+    }
+}
+@media (min-width: 411px) {
+}
+@media (min-width: 768px) {
+    .cnt {
+        justify-content: space-around;
+        align-content: center;
+        &__block-icons {
+            margin: 0 auto;
+            width: 33.7rem;
+            height: auto;
+            img {
+                width: 100%;
+            }
+        }
+        &__block-group {
+            width: 33.8rem;
+        }
+        &__block-title {
+            margin: 3rem 0;
+        }
+        &__block-text {
+            font-size: 2.4rem;
+            line-height: 2.9rem;
+            letter-spacing: 0.015em;
+            text-indent: 1.5rem;
+        }
+    }
+}
+@media (min-width: 1024px) {
+    .cnt {
+        &__block-group {
+            margin: 5rem 0;
+        }
+    }
+}
+@media (min-width: 1024px) {
+    &__block-text {
+        font-size: 3.4rem;
+        line-height: 2.9rem;
+        letter-spacing: 0.015em;
+        text-indent: 1.5rem;
+    }
+}

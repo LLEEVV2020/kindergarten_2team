@@ -1,0 +1,39 @@
+.cnt {
+    &__block-titles {
+        font-family: "Yanone Kaffeesatz";
+        font-size: 1.8rem;
+        line-height: 4.4rem;
+        letter-spacing: 0.01em;
+        display: block;
+    }
+    .cnt__block {
+        width: 23.8rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .cnt {
+        &__block-ic {
+            margin: 0 auto;
+            width: 15rem;
+            height: auto;
+            img {
+                width: 100%;
+            }
+        }
+        &__block-titles {
+            font-size: 3.8rem;
+            line-height: 4.4rem;
+            letter-spacing: 0.01em;
+        }
+    }
+}
+@media (min-width: 1200px) {
+    .cnt {
+        &__block-titles {
+            font-size: 4.8rem;
+            line-height: 5.4rem;
+            letter-spacing: 0.01em;
+        }
+    }
+}
